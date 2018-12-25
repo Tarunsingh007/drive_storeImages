@@ -1,0 +1,10 @@
+{{#if user}}
+{{#each user}}
+<div>
+<a href="/profile/view/image/{{this._id}}"><img src="{{this.image}}" width="200px" height:"400px"/></a>
+</div>
+<a>
+{{/each}}
+{{else}}
+<h2>no uploaded data</h2>
+{{/if}}

@@ -1,0 +1,18 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:window.width;
+	background-color: #777;
+	padding:10px 0px 10px 0px;
+}
+#button{
+	background-color: "#777";
+	margin:12px;
+	color:"red";
+	border-radius: 50%;
+}
+button:hover{
+	cursor:pointer;
+}

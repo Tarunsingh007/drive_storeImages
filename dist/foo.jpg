@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <title>Unicorn</title>
+
+  <meta name="description" content="Unicorn is a dynamic group of companies providing complex services in the area of information systems and information and communication technologies.">
+  <meta name="keywords" content="software, everywhere, unicorn, universe, college, systems, plus4u">
+
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./img/meta/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./img/meta/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/meta/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./img/meta/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/meta/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/meta/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/meta/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./img/meta/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/meta/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" href="./img/meta/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/png" href="./img/meta/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./img/meta/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="./img/meta/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="./img/meta/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="./img/meta/favicon-16x16.png" sizes="16x16">
+  <link rel="shortcut icon" href="./img/meta/favicon.ico">
+
+  
+  
+    
+    <meta name="apple-mobile-web-app-title" content="Unicorn">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <link rel="manifest" href="./img/meta/manifest.json">
+
+    
+    <meta name="msapplication-TileColor" content="#009dda">
+    <meta name="msapplication-TileImage" content="./img/meta/mstile-144x144.png">
+    <meta name="msapplication-config" content="./img/meta/browserconfig.xml">
+
+  <style>
+    .uu5-bricks-loading {
+      text-align: center;
+    }
+
+    .uu5-bricks-loading-animated .uu5-bricks-loading-dot {
+      background-color: #707070;
+      display: inline-block;
+      border-radius: 50%;
+      width: 1em;
+      height: 1em;
+      -webkit-animation: uu5-bricks-loading-animated 1.8s infinite ease-in-out;
+      animation: uu5-bricks-loading-animated 1.8s infinite ease-in-out;
+
+      -ms-transform: scale(0); /* IE 9 */
+      -webkit-transform: scale(0); /* Safari */
+      transform: scale(0);
+    }
+
+    .uu5-bricks-loading-animated .uu5-bricks-loading-dot + .uu5-bricks-loading-dot {
+      margin-left: 0.5em;
+    }
+
+    .uu5-bricks-loading-animated .uu5-bricks-loading-dot:nth-child(2) {
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s;
+    }
+
+    .uu5-bricks-loading-animated .uu5-bricks-loading-dot:nth-child(3) {
+      -webkit-animation-delay: 0.4s;
+      animation-delay: 0.4s;
+    }
+
+    @-webkit-keyframes uu5-bricks-loading-animated {
+      0% {
+        -ms-transform: scale(0); /* IE 9 */
+        -webkit-transform: scale(0); /* Safari */
+        transform: scale(0);
+      }
+      50% {
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari */
+        transform: scale(1, 1);
+      }
+      100% {
+        -ms-transform: scale(0, 0); /* IE 9 */
+        -webkit-transform: scale(0, 0); /* Safari */
+        transform: scale(0, 0);
+      }
+    }
+
+    @keyframes uu5-bricks-loading-animated {
+      0% {
+        -ms-transform: scale(0); /* IE 9 */
+        -webkit-transform: scale(0); /* Safari */
+        transform: scale(0);
+      }
+      50% {
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari */
+        transform: scale(1, 1);
+      }
+      100% {
+        -ms-transform: scale(0, 0); /* IE 9 */
+        -webkit-transform: scale(0, 0); /* Safari */
+        transform: scale(0, 0);
+      }
+    }
+  </style>
+
+  
+  <base href="/" data-uu-app-base="/" data-uu-app-assets-base="">
+
+    
+  
+  <script src="https://cdn.plus4u.net/libs/systemjs/0.19.47/system.js"></script>
+  <script src="uu5-environment.js"></script>
+
+  
+
+    <script>
+      SystemJS.config({
+        "paths": {
+          "systemjs": "https://cdn.plus4u.net/libs/systemjs/0.19.47/system.js",
+          "react": "https://cdn.plus4u.net/libs/react/16.4.0/react.min.js",
+          "react-dom": "https://cdn.plus4u.net/libs/react-dom/16.4.0/react-dom.min.js",
+          "prop-types": "https://cdn.plus4u.net/libs/prop-types/15.6.1/prop-types.min.js",
+          "create-react-class": "https://cdn.plus4u.net/libs/create-react-class/15.6.3/create-react-class.min.js",
+          "jquery": "https://cdn.plus4u.net/libs/jquery/3.2.1/jquery-3.2.1.min.js",
+          "uu5g04": "https://cdn.plus4u.net/uu-uu5g04/1.9.1/uu5g04.min.js",
+          "uu5g04-bricks": "https://cdn.plus4u.net/uu-uu5g04/1.9.1/uu5g04-bricks.min.js",
+          "uu5g04-forms": "https://cdn.plus4u.net/uu-uu5g04/1.9.1/uu5g04-forms.min.js",
+          "uu_appg01_core": "https://cdn.plus4u.net/uu-appg01-core/3.0.1/uu_appg01_core.min.js",
+          "uu_appg01": "https://cdn.plus4u.net/uu-appg01/3.0.1/uu_appg01-base.min.js",
+          "uu_oidcg01": "https://cdn.plus4u.net/uu-oidcg01/3.0.2/uu_oidcg01.min.js",
+          "uu_plus4u5g01-bricks": "https://cdn.plus4u.net/uu-plus4u5g01/1.11.0-accept.2/uu_plus4u5g01-bricks.min.js",
+          "uu_plus4u5g01-app": "https://cdn.plus4u.net/uu-plus4u5g01/1.11.0-accept.2/uu_plus4u5g01-app.min.js",
+          "uu_uu5g04_webkit": "https://cdn.plus4u.net/uu-uu5g04-webkit/2.3.2/uu_uu5g04_webkit.min.js",
+          "uu_plus4u5g01": "https://cdn.plus4u.net/uu-plus4u5g01/1.9.0/uu_plus4u5g01.min.js"
+        }
+      });
+    </script>
+
+  
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',UU5.Environment.GTM);</script>
+  
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGLFDHX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="UU5RouterSpace">
+  <div class="uu5-bricks-loading uu5-bricks-loading-animated" style="padding: 8px">
+    <span class="uu5-bricks-loading-dot"></span>
+    <span class="uu5-bricks-loading-dot"></span>
+    <span class="uu5-bricks-loading-dot"></span>
+  </div>
+</div>
+
+<script>
+  SystemJS.import("./index.js").then(function (Index) {
+    Index.render("UU5RouterSpace");
+  });
+</script>
+</body>
+</html>

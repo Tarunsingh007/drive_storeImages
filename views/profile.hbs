@@ -1,0 +1,11 @@
+<p>welcome <b>{{user.username}}</b></p>
+
+<form action="/profile/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="avatar" required/>
+  <input type="submit" name="submit" value="submit">
+</form>
+
+
+<br><a href="/profile/view/upload"><button>View Uploads</button></a>
+<br><br>
+<a href="/auth/logout"><button>Logout</button></a>
